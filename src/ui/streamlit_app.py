@@ -1,5 +1,5 @@
 """
-Crate — AI Support Agent
+Nexa Order Intelligence — AI Support Agent
 Production-grade customer support interface.
 """
 import streamlit as st
@@ -7,7 +7,7 @@ import requests
 
 # ── Page Config ──────────────────────────────────────────────
 st.set_page_config(
-    page_title="Crate Support Agent",
+    page_title="Nexa Order Intelligence",
     page_icon="●",
     layout="centered",
     initial_sidebar_state="collapsed",
@@ -58,7 +58,7 @@ st.markdown(
 # ── Header ───────────────────────────────────────────────────
 st.markdown(
     '<div class="brand"><div class="brand-dot"></div>'
-    '<span class="brand-name">Crate</span></div>'
+    '<span class="brand-name">Nexa</span></div>'
     '<div class="brand-sub">AI-powered order &amp; shipping assistance</div>',
     unsafe_allow_html=True,
 )

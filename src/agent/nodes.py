@@ -202,7 +202,7 @@ def response_node(state: AgentState) -> dict:
             "final_response": (
                 "I apologize, but I'm having trouble processing your request right now. "
                 "Please try again in a moment, or contact our support team directly at "
-                "support@crate.ai. Is there anything else I can help you with?"
+                "support@nexa.ai. Is there anything else I can help you with?"
             )
         }
 
@@ -210,7 +210,7 @@ def response_node(state: AgentState) -> dict:
     if intent == "general" and not tool_results:
         return {
             "final_response": (
-                "Hello! 👋 I'm Crate's virtual assistant. I can help you with:\n\n"
+                "Hello! 👋 I'm Nexa's virtual assistant. I can help you with:\n\n"
                 "📦 **Order Status** — Check your order with your order ID.\n"
                 "🚚 **Package Tracking** — Track your shipment with your tracking number.\n"
                 "🔄 **Returns** — Learn about our return policy or initiate a return.\n\n"
